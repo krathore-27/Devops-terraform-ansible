@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-east-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-078efad6f7ec18b8a"
+  ami = "ami-02b8534ff4b424939"
   instance_type = "t2.micro"
   key_name = "komal_import_pub_ec2"
 
